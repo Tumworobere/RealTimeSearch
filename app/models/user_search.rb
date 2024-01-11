@@ -1,2 +1,0 @@
-class UserSearch < ApplicationRecord
-end
