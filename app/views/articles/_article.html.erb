@@ -1,0 +1,11 @@
+<div id="<%= dom_id article %>">
+  <p>
+    <%= article.title %> <%= link_to "View", article_path(article) %>
+  </p>
+
+  <p>
+    <strong>Content:</strong>
+    <%= article.content %>
+  </p>
+
+</div>
